@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+
+</head>
+<body>
+<div class="main-content">
+
+{{>header}}   
+
+<form action=""  id="form" onsubmit="submitLocation">
+    <input type="text" placeholder="City name">
+<button>Search</button>
+</form>
+
+
+<p id="p1">
+
+</p>
+
+<p id = "p2">
+
+</p>
+
+ <p>Creatd By - {{name}}</p>
+</div>
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+
+</script>
+</body>
+</html>
